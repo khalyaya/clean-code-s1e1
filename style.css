@@ -10,13 +10,13 @@
   display: block;
   text-align: right;
 }
-.header-img {
+.header__img {
   width: 100%;
 }
-.header-info {
+.header__info {
   font-family: fantasy, cursive;
 }
-.header-title-hidden {
+.header__title-hidden {
   display:none;
 }
 
@@ -117,9 +117,9 @@
 .task-checkbox,
 .task-label,
 .task-input,
-.button-delete,
-.button-edit,
-.button-delete-img{
+.button_delete,
+.button_edit,
+.button__img{
   vertical-align: middle;
 }
 
@@ -135,12 +135,12 @@
 .task-input{
   width: 226px;
 }
-.button-delete-img {
+.button__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.button-delete-img:hover {
+.button__img:hover {
   transform: rotateZ(0);
 }
 
